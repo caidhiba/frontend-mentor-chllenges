@@ -1,0 +1,150 @@
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    background-color: hsl(235, 18%, 26%);
+}
+
+ .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 750px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 15px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* display: none; */
+    
+} 
+.right-section svg{
+    width: 350px;
+    height: 400px;
+    padding-right: 0;
+    margin: 0;
+}
+.left-section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 800;
+    /* text-align: center; */
+}
+.description{
+    font-size: 17px;
+    margin: 0;
+
+}
+.elt{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.left-section img{
+    width: 17px;
+    margin-right: 5px;
+}
+.element{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    padding: 7px;
+}
+.input-text{
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding-top: 40px;
+}
+input{
+    width: 300px;
+    padding-top: 15px;
+    border: 1px solid black;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.btn , .success-button{
+    width: 310px;
+    height: 40px;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(4, 100%, 67%);
+    border: none;
+    box-shadow: 3px 5px 5px #d38484c3;
+}
+
+
+.success-card{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 35px;
+}
+.success-icon{
+    width: 25px;
+}
+.success-title{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+.success-description{
+    font-size: 15px;
+    margin: 0;
+    padding-top: 15px;
+}
+.email{
+    font-weight: bold;
+}
+.success-button:hover{
+    background-color: hsl(4, 100%, 67%);
+    border: none;
+    box-shadow: 3px 5px 5px #d38484c3;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-bottom: 1em;
+    padding-left: 210px;
+    
+}
+
+input.invalid {
+    border-color: orange;
+    background-color:hsl(4, 100%, 67%) ;
+}
+
+
+
+
+
