@@ -17,7 +17,7 @@ The designs were created to the following widths:
 - Soft Red: hsl(358, 79%, 66%)
 - Light grayish blue: hsl(239, 57%, 85%)
 - Pale red: hsl(357, 100%, 86%)
-
+ 
 ### Neutral
 
 - Dark blue: hsl(212, 24%, 26%)
@@ -32,7 +32,7 @@ The designs were created to the following widths:
 
 - Font size (paragraph): 16px
 
-### Font
+### Font 
 
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 - Weights: 400, 500, 700
