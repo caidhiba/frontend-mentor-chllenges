@@ -11,8 +11,8 @@ body{
 }
 
 .comments-container{
-    width: 600px;
-    height: 560px;
+    width: 640px;
+    height: 590px;
     background-color: rgba(255, 255, 255, 0.409);
     position: absolute;
     top: 50%;
@@ -78,12 +78,12 @@ body{
     /* justify-content: space-around; */
     align-items: center;
 }
-.user img{
+.user img, .user-pfp{
     width: 40px;
     height: 40px;
     
 }
-.username{
+.username {
     margin-right: 40px ;
     margin-left: 15px;
     font-weight: bold;
@@ -92,13 +92,13 @@ body{
     color: gray;
     margin-right: 90px;
 }
-.reply{
+.reply, .delete{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 50px;
 }
-.reply img{
+.reply img, .delete img{
     width: 18px;
     height: 18px;
     margin-right: 6px;
@@ -114,7 +114,7 @@ body{
 }
 .reply-container{
     background-color: hsl(228, 33%, 97%);
-    width: 560px;
+    width: 580px;
     height: 90px;
     z-index: 30;
     /* position: fixed; */
@@ -126,6 +126,10 @@ body{
     position: sticky;
     bottom: 0;
 
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .reply-container img{
     width: 30px;
@@ -151,3 +155,21 @@ body{
     border: none;
 }
 
+.reply-card{
+    background-color: white;
+    margin-bottom: 10px;
+    display: none;
+    width: 580px;
+    height: 90px;
+    border-radius: 10px;
+    
+    flex-direction: row;
+    
+    padding: 16px 40px ;
+}
+
+.delete-text{
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(358, 79%, 66%);
+}

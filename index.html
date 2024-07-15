@@ -15,17 +15,16 @@
 <body>
 
   <!-- Pull dynamic content from the data.json file -->
-
-  <div class="comments-container">
+  <!-- <div class="comments-container">
 
     <div class="comment-try">
       
       <div class="comment-card">
         <div class="left-section">
           <div class="score">
-            <div><img  src="images/icon-plus.svg" alt=""></div>
+            <div class="js-score-plus"><img  src="images/icon-plus.svg" alt=""></div>
             <div class="score-num">12</div>
-            <div><img src="images/icon-minus.svg" alt=""></div>
+            <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
           </div>
         </div>
   
@@ -44,13 +43,19 @@
           </div>
         </div>
       </div>
-  
+      
+      <div class="reply-card">
+        <img src="images/avatars/image-maxblagun.webp" alt="">
+        <textarea class="reply-input" placeholder="Start typing..."></textarea>
+        <button class="send-button">REPLY</button>
+      </div>
+      
       <div class="comment-card">
         <div class="left-section">
           <div class="score">
-            <div><img  src="images/icon-plus.svg" alt=""></div>
+            <div class="js-score-plus"><img  src="images/icon-plus.svg" alt=""></div>
             <div class="score-num">12</div>
-            <div><img src="images/icon-minus.svg" alt=""></div>
+            <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
           </div>
         </div>
   
@@ -69,13 +74,14 @@
           </div>
         </div>
       </div>
-  
+      
+
       <div class="comment-card">
         <div class="left-section">
           <div class="score">
-            <div><img  src="images/icon-plus.svg" alt=""></div>
+            <div class="js-score-plus"><img  src="images/icon-plus.svg" alt=""></div>
             <div class="score-num">12</div>
-            <div><img src="images/icon-minus.svg" alt=""></div>
+            <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
           </div>
         </div>
   
@@ -94,13 +100,13 @@
           </div>
         </div>
       </div>
-  
+
       <div class="comment-card">
         <div class="left-section">
           <div class="score">
-            <div><img  src="images/icon-plus.svg" alt=""></div>
+            <div class="js-score-plus"><img  src="images/icon-plus.svg" alt=""></div>
             <div class="score-num">12</div>
-            <div><img src="images/icon-minus.svg" alt=""></div>
+            <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
           </div>
         </div>
   
@@ -131,8 +137,150 @@
       <textarea class="reply-input" placeholder="Start typing..."></textarea>
       <button class="send-button">SEND</button>
      </div>
+  </div> -->
+
+
+
+  <div class="comments-container">
+
+    <!-- <div class="comment-try">
+        <div class="comment-card">
+            <div class="left-section">
+                <div class="score">
+                    <div class="js-score-plus"><img src="images/icon-plus.svg" alt=""></div>
+                    <div class="score-num">12</div>
+                    <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="user">
+                    <img src="images/avatars/image-amyrobson.png" alt="">
+                    <div class="username">amy robson</div>
+                    <div class="period">1 month ago</div>
+                    <div class="reply">
+                        <img src="images/icon-reply.svg" alt="">
+                        <div class="reply-word">Reply</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well."
+                </div>
+            </div>
+        </div>
+        <div class="reply-card">
+            <img  src="images/avatars/image-maxblagun.webp" alt="">
+            <textarea class="reply-input" placeholder="Start typing..."></textarea>
+            <button class="send-button">REPLY</button>
+        </div>
+    </div>
+
+    
+
+    <div class="comment-try">
+        <div class="comment-card">
+            <div class="left-section">
+                <div class="score">
+                    <div class="js-score-plus"><img src="images/icon-plus.svg" alt=""></div>
+                    <div class="score-num">12</div>
+                    <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="user">
+                    <img src="images/avatars/image-amyrobson.png" alt="">
+                    <div class="username">amy robson</div>
+                    <div class="period">1 month ago</div>
+                    <div class="reply">
+                        <img src="images/icon-reply.svg" alt="">
+                        <div class="reply-word">Reply</div>
+                    </div>
+                </div>
+                <div class="comment">
+                    Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well."
+                </div>
+            </div>
+        </div>
+        <div class="reply-card">
+            <img src="images/avatars/image-maxblagun.webp" alt="">
+            <textarea class="reply-input" placeholder="Start typing..."></textarea>
+            <button class="send-button">REPLY</button>
+        </div>
+    </div>
+
+    <div class="comment-try">
+      <div class="comment-card">
+          <div class="left-section">
+              <div class="score">
+                  <div class="js-score-plus"><img src="images/icon-plus.svg" alt=""></div>
+                  <div class="score-num">12</div>
+                  <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
+              </div>
+          </div>
+          <div class="right-section">
+              <div class="user">
+                  <img src="images/avatars/image-amyrobson.png" alt="">
+                  <div class="username">amy robson</div>
+                  <div class="period">1 month ago</div>
+                  <div class="reply">
+                      <img src="images/icon-reply.svg" alt="">
+                      <div class="reply-word">Reply</div>
+                  </div>
+              </div>
+              <div class="comment">
+                  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well."
+              </div>
+          </div>
+      </div>
+      <div class="reply-card">
+          <img src="images/avatars/image-maxblagun.webp" alt="">
+          <textarea class="reply-input" placeholder="Start typing..."></textarea>
+          <button class="send-button">REPLY</button>
+      </div>
   </div>
 
+  <div class="comment-try">
+    <div class="comment-card">
+        <div class="left-section">
+            <div class="score">
+                <div class="js-score-plus"><img src="images/icon-plus.svg" alt=""></div>
+                <div class="score-num">12</div>
+                <div class="js-score-minus"><img src="images/icon-minus.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="user">
+                <img src="images/avatars/image-amyrobson.png" alt="">
+                <div class="username">amy robson</div>
+                <div class="period">1 month ago</div>
+                <div class="reply">
+                    <img src="images/icon-reply.svg" alt="">
+                    <div class="reply-word">Reply</div>
+                </div>
+            </div>
+            <div class="comment">
+                Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well."
+            </div>
+        </div>
+    </div>
+    <div class="reply-card">
+        <img src="images/avatars/image-maxblagun.webp" alt="">
+        <textarea class="reply-input" placeholder="Start typing..."></textarea>
+        <button class="send-button">REPLY</button>
+    </div>
+</div>-->
+
+    <!-- <div class="reply-container">
+        <img src="images/avatars/image-maxblagun.webp" alt="">
+        <textarea class="reply-input" placeholder="Start typing..."></textarea>
+        <button class="send-button">SEND</button>
+    </div>  -->
+  </div>
+  <div class="reply-container">
+    <img src="images/avatars/image-maxblagun.webp" alt="">
+    <textarea class="reply-input" placeholder="Start typing..."></textarea>
+    <button class="send-button">SEND</button>
+  </div>
+  <script src="app.js"></script>
  
   
 </body>
